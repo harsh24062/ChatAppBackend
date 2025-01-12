@@ -41,9 +41,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
             registry.addEndpoint("/chat")
                     .setAllowedOrigins("https://localhost:3000")
                     .withSockJS();
-                    
+
     }
-
-
-
+    
 }
