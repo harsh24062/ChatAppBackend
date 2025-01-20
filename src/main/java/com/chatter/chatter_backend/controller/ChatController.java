@@ -14,7 +14,7 @@ import com.chatter.chatter_backend.payload.MessageRequest;
 import com.chatter.chatter_backend.service.RoomService;
 
 @Controller
-@CrossOrigin("https://localhost:3000")
+@CrossOrigin("http://localhost:5173")
 public class ChatController {
 
     @Autowired

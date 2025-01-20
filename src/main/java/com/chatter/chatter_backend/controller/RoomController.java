@@ -20,7 +20,7 @@ import com.chatter.chatter_backend.service.RoomService;
 
 @RestController
 @RequestMapping("/api/v1/rooms")
-@CrossOrigin("https://localhost:3000")
+@CrossOrigin("http://localhost:5173")
 public class RoomController {
 
     @Autowired
