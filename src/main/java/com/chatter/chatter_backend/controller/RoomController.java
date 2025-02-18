@@ -14,13 +14,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.chatter.chatter_backend.config.AppConstants;
 import com.chatter.chatter_backend.entities.Message;
 import com.chatter.chatter_backend.entities.Room;
 import com.chatter.chatter_backend.service.RoomService;
 
 @RestController
 @RequestMapping("/api/v1/rooms")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin(AppConstants.FRONT_END_BASE_URL)
 public class RoomController {
 
     @Autowired
