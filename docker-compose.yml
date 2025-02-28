@@ -12,7 +12,7 @@ services:
       - app-network
 
   boot-app:
-      image:  harshosk123/chatter-backend:v1
+      image:  harshosk123/chatter-backend:v2
       build:
          context: .
          dockerfile: Dockerfile 
